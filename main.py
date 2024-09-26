@@ -2,7 +2,6 @@ import streamlit as st
 # import torch 
 # from transformers import pipeline , AutoModel , AutoTokenizer
 # from huggingface_hub import login
-# login("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")
 # tokenizer = AutoTokenizer.from_pretrained('meta-llama/Meta-Llama-3-8B-Instruct')
 # model = AutoModel.from_pretrained("meta-llama/Meta-Llama-3-8B-Instruct")
 # pipe = pipeline('text-generation',model = model ,torch_dtype=torch.bfloat16,device_map = 'auto',use_auth_token='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')
