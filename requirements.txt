@@ -1,0 +1,5 @@
+streamlit
+bcrypt
+google-generativeai
+python-dotenv
+streamlit-option-menu
