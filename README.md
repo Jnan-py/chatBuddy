@@ -21,8 +21,8 @@ Additionally, ChatBuddy uses Google’s Generative AI (Gemini-2.0-flash) to gene
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Jnan-py/chatbuddy.git
-   cd chatbuddy
+   git clone https://github.com/Jnan-py/chatBuddy.git
+   cd chatBuddy
    ```
 
 2. **Create a Virtual Environment (Recommended)**
