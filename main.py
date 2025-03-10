@@ -211,10 +211,15 @@ def main():
                 name = st.text_input("Chatbot Name")
                 instructions = st.text_area("Instructions")
                 submitted = st.form_submit_button("Create")
-                if submitted:
-                    create_chatbot(st.session_state.user_id, name, instructions)
-                    st.success("Chatbot created!")
-                    st.session_state.show_new_chatbot_form = False
+
+                if name and instructions:
+                    if submitted:
+                        create_chatbot(st.session_state.user_id, name, instructions)
+                        st.success("Chatbot created!")
+                        st.session_state.show_new_chatbot_form = False
+
+                else:
+                    st.warning("Enter all instructions before submitting")
 
         chatbots = get_user_chatbots(st.session_state.user_id)
         selected_chatbot = st.selectbox(
